@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False\n +  where False = assert_handle({'code': '200', 'data': [{'botActId': 'test959368', 'categoryName': 'Asking Information', 'description': '', 'id': 121170, ...}], 'msg': 'success'}, '{\\n    \"code\": \"2100\",\\n    \"data\": null,\\n    \"msg\": \"The dialog script ID is existed. Please change to another script ID. \"\\n}', 'json')",
+      "children" : [ {
+        "name" : "test_start[autotest6]",
+        "uid" : "210fdbcb2bf55da8",
+        "parentUid" : "9b434b44cb8fce2f6a50344487604290",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599813355193,
+          "stop" : 1599813355242,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "{'project_name': 'scello', 'file_name': 'scello.xlsx', 'sheet_name': 'Sheet1', 'steps': [{'row': 14, 'botActId': 'test959368', 'CASE_NO_ID': 'test_fact_007', 'Description': '增加数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step1', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'POST', 'Auth': '', 'Payload': '[\\n    {\\n        \"botActId\": \"{botActId}\",\\n        \"categoryName\": \"Asking Information\",\\n        \"usage\": 0,\\n        \"scriptExample\": \"{\\\\\"question\\\\\":\\\\\"how are you?\\\\\",\\\\\"answer\\\\\":\\\\\" I am fine\\\\\",\\\\\"imgUrl\\\\\":[]}\",\\n        \"description\": \"\",\\n        \"scriptType\": 1,\\n        \"scriptValue\": \"test\",\\n        \"scriptFeature\": {\\n            \"language\": [\\n                \"English\"\\n            ]\\n        }\\n    }\\n]', 'URL': '/editor/script/save/lena_de', 'Validate_Type': 'status_code', 'Expect': 200.0, 'Actual': \"{'code': '200', 'data': None, 'msg': 'success'}\", '': 'Pass'}, {'row': 15, 'botActId': 'test959368', 'CASE_NO_ID': 'test_fact_007', 'Description': '查询数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step2', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'GET', 'Auth': '', 'Payload': '', 'URL': '/editor/script/botActId/{botActId}/lena_de', 'Validate_Type': 'json', 'Expect': '{\\n    \"code\": \"2100\",\\n    \"data\": null,\\n    \"msg\": \"The dialog script ID is existed. Please change to another script ID. \"\\n}', 'Actual': '{\\'code\\': \\'200\\', \\'data\\': [{\\'botActId\\': \\'test3919\\', \\'categoryName\\': \\'Asking Information\\', \\'description\\': \\'\\', \\'id\\': 121038, \\'projectId\\': 0, \\'remark\\': \\'\\', \\'scriptExample\\': \\'{\"question\":\"how are you?\",\"answer\":\" I am fine\",\"imgUrl\":[]}\\', \\'scriptFeature\\': {\\'language\\': [\\'English\\']}, \\'scriptType\\': 1, \\'scriptValue\\': \\'test\\', \\'usage\\': 0, \\'userAccount\\': \\'\\'}], \\'msg\\': \\'success\\'}', '': 'Pass'}], 'botActId': 'test959368'}" ]
+      } ],
+      "uid" : "9b434b44cb8fce2f6a50344487604290"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

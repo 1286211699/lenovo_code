@@ -1,0 +1,73 @@
+{
+  "uid" : "5c0c696bc9d171ab",
+  "name" : "test_start[autotest0]",
+  "fullName" : "tests.test_01.Testdata#test_start",
+  "historyId" : "eed0269cb0e0ba9b7da564c4d97eebfd",
+  "time" : {
+    "start" : 1599813353309,
+    "stop" : 1599813353387,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "write_book",
+    "time" : {
+      "start" : 1599813353293,
+      "stop" : 1599813353306,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testdata"
+  }, {
+    "name" : "host",
+    "value" : "wx0liucy"
+  }, {
+    "name" : "thread",
+    "value" : "24192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "autotest",
+    "value" : "{'project_name': 'scello', 'file_name': 'scello.xlsx', 'sheet_name': 'Sheet1', 'steps': [{'row': 1, 'botActId': 'test669303', 'CASE_NO_ID': 'test_fact_001', 'Description': '增加数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step1', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'POST', 'Auth': '', 'Payload': '[\\n    {\\n        \"botActId\": \"{botActId}\",\\n        \"categoryName\": \"Asking Information\",\\n        \"usage\": 0,\\n        \"scriptExample\": \"{\\\\\"question\\\\\":\\\\\"how are you?\\\\\",\\\\\"answer\\\\\":\\\\\" I am fine\\\\\",\\\\\"imgUrl\\\\\":[]}\",\\n        \"description\": \"\",\\n        \"scriptType\": 1,\\n        \"scriptValue\": \"test\",\\n        \"scriptFeature\": {\\n            \"language\": [\\n                \"English\"\\n            ]\\n        }\\n    }\\n]', 'URL': '/editor/script/save/lena_de', 'Validate_Type': 'status_code', 'Expect': 200.0, 'Actual': '', '': ''}, {'row': 2, 'botActId': 'test669303', 'CASE_NO_ID': 'test_fact_001', 'Description': '查询数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step2', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'GET', 'Auth': '', 'Payload': '', 'URL': '/editor/script/botActId/{botActId}/lena_de', 'Validate_Type': 'status_code', 'Expect': 200.0, 'Actual': '', '': ''}], 'botActId': 'test669303'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c0c696bc9d171ab.json",
+  "parameterValues" : [ "{'project_name': 'scello', 'file_name': 'scello.xlsx', 'sheet_name': 'Sheet1', 'steps': [{'row': 1, 'botActId': 'test669303', 'CASE_NO_ID': 'test_fact_001', 'Description': '增加数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step1', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'POST', 'Auth': '', 'Payload': '[\\n    {\\n        \"botActId\": \"{botActId}\",\\n        \"categoryName\": \"Asking Information\",\\n        \"usage\": 0,\\n        \"scriptExample\": \"{\\\\\"question\\\\\":\\\\\"how are you?\\\\\",\\\\\"answer\\\\\":\\\\\" I am fine\\\\\",\\\\\"imgUrl\\\\\":[]}\",\\n        \"description\": \"\",\\n        \"scriptType\": 1,\\n        \"scriptValue\": \"test\",\\n        \"scriptFeature\": {\\n            \"language\": [\\n                \"English\"\\n            ]\\n        }\\n    }\\n]', 'URL': '/editor/script/save/lena_de', 'Validate_Type': 'status_code', 'Expect': 200.0, 'Actual': '', '': ''}, {'row': 2, 'botActId': 'test669303', 'CASE_NO_ID': 'test_fact_001', 'Description': '查询数据', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step2', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'GET', 'Auth': '', 'Payload': '', 'URL': '/editor/script/botActId/{botActId}/lena_de', 'Validate_Type': 'status_code', 'Expect': 200.0, 'Actual': '', '': ''}], 'botActId': 'test669303'}" ]
+}

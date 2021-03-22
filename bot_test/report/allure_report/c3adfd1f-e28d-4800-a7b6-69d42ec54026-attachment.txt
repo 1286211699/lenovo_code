@@ -1,0 +1,74 @@
+1604035961
+**************************************** {
+"botName":"jiangjun_test12345",
+"designer":"jiangjun",
+"planner":"jiangjun",
+"channel":["channel1","channel2"],
+"language":["cn"],
+"geos":[{"geo": "UK", "countrys": []},{"geo": "UK", "countrys": []},{"geo": "UK", "countrys": []}],
+"businessEntity":"android",
+"botVersion":"1.01.1",
+"brand":"lenovo_pc",
+"estimatedReleaseTime":"2020-06-24"
+}
+
+1604035962
+111111
+**************************************** {
+    "botId": 1604035962,
+    "data": [
+        {
+            "id": 13,
+            "title": "OCR",
+            "type": "checkbox",
+            "options": null,
+            "value": true,
+            "disabled": false,
+            "code": "OCR",
+            "list": []
+        },
+        {
+            "id": 14,
+            "title": "Image Recognition",
+            "type": "checkbox",
+            "options": null,
+            "value": true,
+            "disabled": false,
+            "code": "Image_Recognition",
+            "list": [
+                {
+                    "id": 56,
+                    "title": "Image Pattern Recognition",
+                    "type": "select",
+                    "options": [
+                        {
+                            "value": 1,
+                            "label": "English",
+                            "disabled": false
+                        },
+                        {
+                            "value": 2,
+                            "label": "Chinese",
+                            "disabled": false
+                        }
+                    ],
+                    "value": 2,
+                    "disabled": false,
+                    "code": "Image_Pattern_Recognition",
+                    "list": []
+                },
+                {
+                    "id": 57,
+                    "title": "Image Caption",
+                    "type": "checkbox",
+                    "options": null,
+                    "value": true,
+                    "disabled": false,
+                    "code": "Image_Caption",
+                    "list": []
+                }
+            ]
+        },
+        
+    ]
+}

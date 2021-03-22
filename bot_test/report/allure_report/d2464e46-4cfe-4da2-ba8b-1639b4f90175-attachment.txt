@@ -1,0 +1,21 @@
+1598844987
+**************************************** {
+"botName":"jiangjun_test12345",
+"designer":"jiangjun",
+"planner":"jiangjun",
+"channel":["channel1","channel2"],
+"language":["cn"],
+"geos":[{"geo": "UK", "countrys": []},{"geo": "UK", "countrys": []},{"geo": "UK", "countrys": []}],
+"businessEntity":"android",
+"botVersion":"1.01.1",
+"brand":"lenovo_pc",
+"estimatedReleaseTime":"2020-06-24"
+}
+
+1604035961
+111111
+**************************************** {
+"specId":1,
+"botId":1604035961,
+"edit":1
+}

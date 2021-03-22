@@ -1,0 +1,22 @@
+{
+    "appId":"serial",
+    "businessType":"chatbot",
+    "timestamp":"1597903507793",
+    "requestId":"{botActId}",
+    "params":{
+        "chnl":"pc",
+        "chnlUsrId":"1300126178996",
+        "geo":"IN",
+        "lan":"en",
+        "location":"India",
+        "query":{
+            "id":"20082014050777111",
+            "msg":"hello ",
+            "type":"text"
+        },
+        "serviceId":"922ac6ecd4624fb2811a5ccbc443e65f",
+        "turnId":"121f7a73480646799d1c9b2ae0a847d1",
+        "context":null,
+        "feedback":null
+    }
+}

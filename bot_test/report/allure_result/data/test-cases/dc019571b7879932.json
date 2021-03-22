@@ -1,0 +1,73 @@
+{
+  "uid" : "dc019571b7879932",
+  "name" : "test_start[autotest4]",
+  "fullName" : "tests.test_01.Testdata#test_start",
+  "historyId" : "41557df96b5f83ab9c619c2717c788b1",
+  "time" : {
+    "start" : 1599813354155,
+    "stop" : 1599813354562,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "write_book",
+    "time" : {
+      "start" : 1599813353293,
+      "stop" : 1599813353306,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testdata"
+  }, {
+    "name" : "host",
+    "value" : "wx0liucy"
+  }, {
+    "name" : "thread",
+    "value" : "24192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "autotest",
+    "value" : "{'project_name': 'scello', 'file_name': 'scello.xlsx', 'sheet_name': 'Sheet1', 'steps': [{'row': 12, 'botActId': 'test803013', 'CASE_NO_ID': 'test_fact_005', 'Description': '获取当前实例信息', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step1', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'GET', 'Auth': '', 'Payload': '', 'URL': '/editor/instance/lena_de?botDataSetId=0x1afa2', 'Validate_Type': 'json', 'Expect': '{\\n    \"code\": \"200\",\\n    \"data\": {\\n        \"botDataSetId\": \"0x1afa2\",\\n        \"channel\": [],\\n        \"country\": [],\\n        \"geo\": [],\\n        \"instanceName\": \"\",\\n        \"language\": [],\\n        \"version\": \"\"\\n    },\\n    \"msg\": \"success\"\\n}', 'Actual': '{\\'code\\': \\'200\\', \\'data\\': [{\\'botActId\\': \\'test3919\\', \\'categoryName\\': \\'Asking Information\\', \\'description\\': \\'\\', \\'id\\': 121038, \\'projectId\\': 0, \\'remark\\': \\'\\', \\'scriptExample\\': \\'{\"question\":\"how are you?\",\"answer\":\" I am fine\",\"imgUrl\":[]}\\', \\'scriptFeature\\': {\\'language\\': [\\'English\\']}, \\'scriptType\\': 1, \\'scriptValue\\': \\'test\\', \\'usage\\': 0, \\'userAccount\\': \\'\\'}], \\'msg\\': \\'success\\'}', '': 'Pass'}], 'botActId': 'test803013'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc019571b7879932.json",
+  "parameterValues" : [ "{'project_name': 'scello', 'file_name': 'scello.xlsx', 'sheet_name': 'Sheet1', 'steps': [{'row': 12, 'botActId': 'test803013', 'CASE_NO_ID': 'test_fact_005', 'Description': '获取当前实例信息', 'Priority': 'P1', 'Component': 'KGMS', 'Automated': 'Yes', 'Steps': 'Step1', 'Headers': '{\"Content-Type\": \"application/json\"}', 'Method': 'GET', 'Auth': '', 'Payload': '', 'URL': '/editor/instance/lena_de?botDataSetId=0x1afa2', 'Validate_Type': 'json', 'Expect': '{\\n    \"code\": \"200\",\\n    \"data\": {\\n        \"botDataSetId\": \"0x1afa2\",\\n        \"channel\": [],\\n        \"country\": [],\\n        \"geo\": [],\\n        \"instanceName\": \"\",\\n        \"language\": [],\\n        \"version\": \"\"\\n    },\\n    \"msg\": \"success\"\\n}', 'Actual': '{\\'code\\': \\'200\\', \\'data\\': [{\\'botActId\\': \\'test3919\\', \\'categoryName\\': \\'Asking Information\\', \\'description\\': \\'\\', \\'id\\': 121038, \\'projectId\\': 0, \\'remark\\': \\'\\', \\'scriptExample\\': \\'{\"question\":\"how are you?\",\"answer\":\" I am fine\",\"imgUrl\":[]}\\', \\'scriptFeature\\': {\\'language\\': [\\'English\\']}, \\'scriptType\\': 1, \\'scriptValue\\': \\'test\\', \\'usage\\': 0, \\'userAccount\\': \\'\\'}], \\'msg\\': \\'success\\'}', '': 'Pass'}], 'botActId': 'test803013'}" ]
+}
