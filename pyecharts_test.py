@@ -58,3 +58,4 @@ m.set_global_opts(title_opts=opts.TitleOpts(title="各国现有确诊人数地�
 """取消显示国家名称"""
 m.set_series_opts(label_opts=opts.LabelOpts(is_show=False))
 m.render('test.html')
+#这个是
