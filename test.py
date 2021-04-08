@@ -22,20 +22,24 @@ import requests,os,time
 # # data3 = sum(range(1,100))
 # # print(data3)
 
-password = 1
-
-num = 0
-data = True
-while num <= 2:
-    user_pwd = int(input('请输入你的密码:'))
-
-    if user_pwd == password:
-        print('恭喜正确')
-        break
-    else:
-        print('输入错误')
-    num += 1
-else:
-    print('输入错误三次')
+# password = 1
+#
+# num = 0
+# data = True
+# while num <= 2:
+#     user_pwd = int(input('请输入你的密码:'))
+#
+#     if user_pwd == password:
+#         print('恭喜正确')
+#         break
+#     else:
+#         print('输入错误')
+#     num += 1
+# else:
+#     print('输入错误三次')
+#
+# import random
+# rand_list = [random.randrange(1000) for i in range(10) ]
+# print(rand_list)
 
 
