@@ -41,5 +41,63 @@ import requests,os,time
 # import random
 # rand_list = [random.randrange(1000) for i in range(10) ]
 # print(rand_list)
+# time.sleep()
+# from openpyxl import Workbook
+# from openpyxl import load_workbook
+
+'''
+斐波那契数列
+1,1,2,3,5,8
+'''
+
+# def fiebo(n):
+#     if n <= 2:
+#         return 1
+#     return fiebo(n-1) + fiebo(n-2)
+#
+# if __name__ == '__main__':
+#     print(fiebo(6))
+'''
+单例模式
+'''
+#
+# class Test(object):
+#
+#     first_data = True
+#     _instance = None
+#
+#     def __init__(self,name,age):
+#
+#         self.name = name
+#         self.age = age
+#
+#     def __new__(cls,name,age,*args, **kwargs):
+#
+#         if cls.first_data:
+#
+#             cls._instance =  object.__new__(cls)
+#             cls.first_data = False
+#
+#         return cls._instance
+#
+# a = Test('for',18)
+# b = Test('afa',19)
+# print(b.name)
+#
+# print(id(a))
+# print(id(b))
+
+# class MoliTest(object):
+#
+#     def __init__(self):
+#         pass
+#
+#     def __del__(self):
+#         pass
+
+'''
+年少不知愁滋味，欲上层楼，欲上层楼，为赋新词强说愁
+
+'''
 
 

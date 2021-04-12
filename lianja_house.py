@@ -29,17 +29,13 @@ def get_page(url):
 def parse_page(response):
 
     xpath_page = etree.HTML(response.text)
-
     datas_list = xpath_page.xpath('//*[@class="sellListContent"]/li')
-
     for data in tqdm(datas_list):
         try:
             house_img_link = data.xpath('.//*[@class="lj-lazy"]/@data-original')[0]
             house_title = data.xpath('.//*[@class="title"]/a/text()')[0]
-
         except:
             pass
-
         if house_img_link:
             down_data(house_img_link)
 
