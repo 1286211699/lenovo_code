@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Python37-32\Lib\site-packages\testinfra\modules\service.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\lianja_house.py">
           <value>
             <Attribute>
@@ -17,7 +24,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ssh_handle.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\test.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\test_2.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
