@@ -2,6 +2,10 @@
 # @Author : Smile_Mr
 # @File : arg_parser_test.py 
 # @Software: PyCharm
+'''
+外部传参参数
+
+'''
 import argparse
 
 parser = argparse.ArgumentParser(description = "一个测试用例")

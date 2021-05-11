@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\360_image_download_test.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\PO_Test.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\keyword_test\keyword.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\lianja_house.py">
           <value>
             <Attribute>
@@ -39,6 +60,13 @@
           </value>
         </entry>
         <entry key="\test_2.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\unit_test.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />

@@ -400,23 +400,168 @@ from copy import copy
 # else:
 #     data.append(max_num+1)
 # print(list(filter(lambda x:x>0,data))[0])
+#
+# import time
+# from tqdm import tqdm
+#
+#
+# for i in tqdm(range(100)):
+#     print(1)
+#     time.sleep(0.5)
 
+# import argparse
+#
+# argparse.ArgumentParser
+
+
+
+'''
+给定一个非负整数 c ，你要判断是否存在两个整数 a 和 b，使得 a2 + b2 = c 。
+示例 1：
+
+输入：c = 5
+输出：true
+解释：1 * 1 + 2 * 2 = 5
+。
+'''
+#
+# num = 5
+#
+# for i in range(1,num):
+#     for j in range(1,num):
+#         if i ** 2 + j **2 == num:
+#             print(i,j)
+#         else:
+#             pass
+#
+# import requests
+# from fake_useragent import UserAgent
+#
+# url = 'https://m.image.so.com/j?q=%E7%BE%8E%E5%A5%B3&pq=&src=zixunhome&pn=30&sn=100&kn=50&gn=0&cn=0'
+#
+# response = requests.request("get",url)
+# print(response.json())
 #
 
+'''
+明确测试需求
+分析测试范围
+建立测试计划
+编写测试用例
+
+功能测试
+兼容测试
+性能测试
+安全测试
+
+关于一支笔的测试
+
+明确测试需求：所有
+确定测试范围：所有
+建立测试计划：外观和功能之后再兼容和性能和安全性
+1、外观是否符合产品需求
+2、书写功能，书写时间，书写长度，书写宽度，书写大小
+3、性能，书写长度，书写时间，笔能承受的压力，按压的次数
+4、安全性，能不能保证符合安全标准
+'''
+
+# class A :
+#
+#     def __init__(self):
+#         self.a = 1
+#
+# class B(A):
+#
+#     def __init__(self,b):
+#         super(B, self).__init__()
+#         self.b = b
+#
+# if __name__ == '__main__':
+#     b = B(2)
+#     print(b.a)
 
 
+'''
+Python 读取大文件
+'''
+# def read_big_file(filepath):
+#
+#     with open(filepath,encoding="utf-8") as f:
+#         # for i in f:
+#         while 1:
+#             data = f.read(100)
+#             if data:
+#                 pass
+#             else:
+#                 break
 
 
+            # if data:
+            #     f.read(100)
+            # else:
+            #     break
 
 
+#
+# a = 1
+#
+# while a:
 
 
+'''
+排序问题
+'''
+
+# a = {'a':1,"d":10,'c':3}
+#
+# data = sorted(a.items(),key=lambda x:x[1])
+# print(dict(data))
+# print(data)
+#
+# class a:
+#
+#     def __call__(self, a,*args, **kwargs):
+#         print(a)
+#
+# if __name__ == '__main__':
+#     d = a()
+#     d(1)
+
+# def outer(a):
+#
+#     def inner():
+#         pass
+#
+#     return inner
+#
+# @outer #a = outer(a)
+# def a():
+#     pass
 
 
+# import inspect
+#
+# def func(name,phone,authcCde="123"):
+#     return name,phone,authcCde
+#
+# apiMethod=func
+# args = inspect.getfullargspec(apiMethod).args
+# print(args)
+#
+a = {'a':None,"b":2}
 
+def d(a,b):
+    print(a)
+    print(b)
 
+d(**a)
 
-
-
+# class A:
+#
+#     def b(self):
+#         print(1)
+#
+# a =A()
+# print(a.__getattribute__('b')())
 
 

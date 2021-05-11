@@ -34,6 +34,7 @@ class ssh_paramiko:
             print(e)
 
         # print(stdout.read().decode("utf-8"))
+
     def handle_ssh(self,local_ssh_file):
 
         stdin,stdout,stderr = self.ssh.exec_command('cat /root/mmc2/1.txt')
