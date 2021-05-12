@@ -548,13 +548,13 @@ Python 读取大文件
 # args = inspect.getfullargspec(apiMethod).args
 # print(args)
 #
-a = {'a':None,"b":2}
-
-def d(a,b):
-    print(a)
-    print(b)
-
-d(**a)
+# a = {'a':None,"b":2}
+#
+# def d(a,b):
+#     print(a)
+#     print(b)
+#
+# d(**a)
 
 # class A:
 #
